@@ -1,3 +1,13 @@
+Crear un micro test framework.
+
+Vamos a seguir el formato:
+describe(name, function() {
+  it(name, function() {
+    assert.assertEquals(...);
+    assert.assertNotEquals(...);
+  });
+});
+
 Implementar los métodos en microtest.js de manera tal que
 al ejecutar "node codeTest.js" obtengamos la siguiente respuesta:
 
